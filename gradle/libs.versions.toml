@@ -6,6 +6,7 @@ activity-compose = "1.9.1"
 lifecycle = "2.8.4"
 room = "2.6.1"
 ksp = "1.9.25-1.0.20"
+java = "17"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version = "1.13.1" }

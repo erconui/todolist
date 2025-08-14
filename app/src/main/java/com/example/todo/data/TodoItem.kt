@@ -3,9 +3,9 @@ package com.example.todo.data
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "todos")
+@Entity
 data class TodoItem(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
-    val text: String,
+    val task: String,
     val isDone: Boolean = false
 )
